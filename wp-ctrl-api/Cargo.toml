@@ -1,0 +1,10 @@
+[package]
+name = "wp-ctrl-api"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { workspace = true, features = ["derive"] }
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["full"] }

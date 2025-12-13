@@ -1,0 +1,8 @@
+[package]
+name = "wp-enrich-api"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+wp_model_core = { workspace = true }
