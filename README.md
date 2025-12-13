@@ -1,6 +1,7 @@
 # WP Advanced API
 
 [![CI](https://github.com/wp-labs/wp-advanced-api/workflows/CI/badge.svg)](https://github.com/wp-labs/wp-advanced-api/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/wp-labs/wp-advenced-api/graph/badge.svg?token=NLU2ELLLM8)](https://codecov.io/gh/wp-labs/wp-advenced-api)
 [![Release](https://github.com/wp-labs/wp-advanced-api/workflows/Release/badge.svg)](https://github.com/wp-labs/wp-advanced-api/actions/workflows/release.yml)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
