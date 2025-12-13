@@ -10,6 +10,7 @@ resolver = "2"
 edition = "2024"
 version = "0.0.2"
 license = "Apache-2.0"
+authors = ["WarpParse Dev Team"]
 
 # 统一依赖版本，便于各 crate 使用 `workspace = true`
 [workspace.dependencies]
