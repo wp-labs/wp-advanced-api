@@ -8,7 +8,7 @@ resolver = "2"
 [workspace.package]
 # 统一包元数据；如需对外发布，请根据实际情况修改
 edition = "2024"
-version = "0.0.3"
+version = "0.0.4"
 license = "Apache-2.0"
 authors = ["WarpParse Dev Team"]
 
