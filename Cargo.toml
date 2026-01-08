@@ -8,7 +8,7 @@ resolver = "2"
 [workspace.package]
 # 统一包元数据；如需对外发布，请根据实际情况修改
 edition = "2024"
-version = "0.0.4"
+version = "0.0.5"
 license = "Apache-2.0"
 authors = ["WarpParse Dev Team"]
 
@@ -21,7 +21,7 @@ tokio = { version = "1", features = ["full"] }
 toml = "0.8"
 thiserror = "1"
 derive_more = "2.0"
-orion-error = "0.5.5"
+orion-error = "0.5"
 lru = "0.12"
 wildmatch = "2.6"
 ipnet = "2.11"
@@ -29,5 +29,5 @@ contracts = "0.6"
 derive-getters = "0.5"
 chrono = { version = "0.4", features = ["serde"] }
 mockall = "0.11"
-derive_builder = "0.20.0"
-wp_model_core= { package = "wp-model-core",   git = "https://github.com/wp-labs/wp-open-api.git",tag= "v0.5.1-beta" }
+derive_builder = "0.20"
+wp_model_core= { package = "wp-model-core",   git = "https://github.com/wp-labs/wp-open-api.git",tag= "v0.7.0" }
