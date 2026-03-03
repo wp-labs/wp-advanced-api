@@ -24,7 +24,7 @@ derive_more = "2.0"
 orion-error = "0.6"
 lru = "0.12"
 wildmatch = "2.6"
-ipnet = "2.11"
+ipnet = "2.12"
 contracts = "0.6"
 derive-getters = "0.5"
 chrono = { version = "0.4", features = ["serde"] }
