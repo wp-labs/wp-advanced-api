@@ -12,15 +12,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "arcstr"
-version = "1.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "03918c3dbd7701a85c6b9887732e2921175f26c350b4563841d0958c21d57e6d"
-dependencies = [
- "serde",
-]
-
-[[package]]
 name = "autocfg"
 version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -640,17 +631,18 @@ dependencies = [
 
 [[package]]
 name = "wp-enrich-api"
-version = "0.0.5"
+version = "0.1.0"
 dependencies = [
  "wp-model-core",
 ]
 
 [[package]]
 name = "wp-model-core"
-version = "0.7.0"
-source = "git+https://github.com/wp-labs/wp-open-api.git?tag=v0.7.0#0eb0f49356094b1b622ec4c44e35896c8c1cb819"
+version = "0.8.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f6e02ee8d1dc090e0d593a4670f041d7dd1626dd90a4168b7d8d7c43d26ffbb9"
 dependencies = [
- "arcstr",
+ "bytes",
  "chrono",
  "ipnet",
  "serde",

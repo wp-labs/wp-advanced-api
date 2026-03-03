@@ -5,4 +5,4 @@ edition.workspace = true
 license.workspace = true
 
 [dependencies]
-wp_model_core = { workspace = true }
+wp-model-core = { workspace = true }
