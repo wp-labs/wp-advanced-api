@@ -19,7 +19,7 @@ serde = { version = "1", features = ["derive"] }
 serde_derive = "1"
 tokio = { version = "1", features = ["full"] }
 toml = "1.0"
-thiserror = "1"
+thiserror = "2"
 derive_more = "2.1"
 orion-error = "0.7"
 lru = "0.12"
